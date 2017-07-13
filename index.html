@@ -4,21 +4,21 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="resetpage.css">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="resetpage.css">
 	<title>Coffee Shop</title>
 </head>
 
 <body>
   <main>
 	<header>
-    <h1>Coffee Shop</h1>
+    <h1 id="myHeading">Coffee Shop</h1>
 		<nav>
 			<ul>
-				<li>HOME</li>
-        <li>BLOG</li>
-        <li>COFFEE</li>
-        <li>CONTACT</li>
+				<li class="menu">HOME</li>
+        <li class="menu">BLOG</li>
+        <li class="menu">COFFEE</li>
+        <li class="menu">CONTACT</li>
 			</ul>
 		</nav>
 	</header>
@@ -44,11 +44,17 @@
 		<h2>About section</h2>
 		<p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 	</aside>
-  </main>
+
 	<footer>
 		<p>Copyright 2017 Coffee Shop</p>
 	</footer>
 
+	<input type="text" id="myTextInput" placeholder="title color">
+	<input type="text" id="myTextInput2" placeholder="menu font size">
+	<button id="myButton">Submit</button>
+
+	</main>
+<script src="app.js"></script>
 </body>
 
 </html>
