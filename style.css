@@ -1,0 +1,26 @@
+main {
+  margin: auto;
+  text-align: center;
+  width: 1200px;
+  background: #EFEFEF;
+}
+
+input {
+  width: 120px;
+  height: 20px;
+}
+
+aside {
+  margin-bottom: 100px;
+}
+
+button {
+  margin: 20px 0 20px 0;
+  width: 120px;
+  height: 30px;
+  background-color: #9A3BCD;
+}
+
+footer {
+  text-align: center;
+}
