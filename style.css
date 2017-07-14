@@ -5,23 +5,17 @@ main {
   background: #EFEFEF;
 }
 
-h1 {
-  font-weight: 400;
-  font-style: italic;
-  margin-top: 30px;
-}
-
-
-p {
-  line-height: 20px;
-}
-
 input {
   width: 120px;
   height: 20px;
 }
 
+aside {
+  margin-bottom: 100px;
+}
+
 button {
+  margin: 20px 0 20px 0;
   width: 120px;
   height: 30px;
   background-color: #9A3BCD;
